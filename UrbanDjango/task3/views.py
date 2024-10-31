@@ -15,9 +15,6 @@ def store_games(requset):
     return render(requset, 'third_task/games.html', {'games': games})
 
 
-# def cart(requset):
-#     return render(requset, 'thied_task/cart.html')
-
 def cart_page(request):
     cart_items = {
         'Atomic Heart': {'price': 1500, 'quantity': 1},
